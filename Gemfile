@@ -17,10 +17,8 @@ gem 'spring',            group: :development
     gem 'sqlite3'
     gem 'pry'
   end
-    group :production do
+ group :production do
       gem 'pg'
       gem 'rails_12factor'
-    end
-
-
-end
+  end
+  
